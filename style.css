@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("sfondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Sen', sans-serif;
+}
+
+header{
+    margin-bottom: 25px;
+    border-bottom: 3px solid #450000;
+    padding-bottom: 5px;
+}
+
+.logo {
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+}
+
+header h1{
+    display: inline-block;
+}
+
+header h2{
+    text-align: right;
+    margin-right: 15px;
+    margin-bottom: 18px;
+}
+
+header h3{
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.ricerca {
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.cartelle{
+    width: 27%;
+    display: inline-block;
+}
+
+#sel{
+    background-color: rgba(133, 133, 133, 0.8);
+}
+
+.cartella{
+    width: 90%;
+    display: inline-block;
+    background-color: rgba(78, 78, 78, 0.55);
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    padding: 10px 0px;
+    border:2px solid black;
+    padding-left: 10px;
+}
+
+.etichetta{
+    width: 80%;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.count{
+    display: inline-block;
+    background-color: rgba(133,0,0,0.5);
+    border-radius: 100%;
+    font-size: 1.5em;
+}
+
+.messaggi{
+    display: inline-block;
+}
+
+.messaggio{
+    font-size: 1em;
+    font-weight: 400;
+    border: 2px solid black;
+    padding: 3px;
+    background-color: rgba(78, 78, 78, 0.55);
+}
+
+.messaggiof{
+    background-color: rgba(133, 133, 133, 0.8);
+    border: 3px solid black;
+    padding: 2px;
+}
